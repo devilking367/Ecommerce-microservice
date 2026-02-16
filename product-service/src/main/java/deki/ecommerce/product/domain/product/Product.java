@@ -36,6 +36,6 @@ public class Product extends AbstractAuditableEntity {
     private String imageUrl;
 
     @Column
-    private Boolean active = true;
+    private Boolean active = false;
 }
 

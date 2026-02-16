@@ -8,8 +8,8 @@ import org.springframework.web.bind.annotation.RestController;
 @RequestMapping("/products")
 public class CommerceProductController {
 
-    @GetMapping
+    /*@GetMapping
     public String healthCheck() {
         return "Product Service is up and running!";
-    }
+    }*/
 }
